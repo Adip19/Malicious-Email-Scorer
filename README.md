@@ -1,6 +1,7 @@
 # Malicious-Email-Scorer
 A Gmail Add-on that analyzes an opened email and produces a  maliciousness score. 
-The Add-on is designed to be context-aware - once an email is opened, the user can immediately trigger the analysis by clicking "Scan for Threads"
+
+The Add-on is designed to be context-aware - once an email is opened, the user can immediately trigger the analysis by clicking "Scan for Threads".
 _____________________________________________________________________________________________________________________________
 ### The Idea Behind the Feature
 The logic behind these tests is based on the observation that attackers consistently follow specific patterns, such as using fake domains, 
