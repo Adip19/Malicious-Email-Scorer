@@ -8,7 +8,7 @@ The logic behind these tests is based on the observation that attackers consiste
 deceptive usernames, malicious links or files, and social engineering to attack users. Under these circumstances, I decided to implement several tests to determine whether a received email can be considered malicious.
 
 #### Scoring Method:
-I developed a scoring method that calculates the risk level according to the potential threats existing within each specific email. The fact that the score is dynamic and calculated based only on relevant threats—rather than using a generic scoring method—provides a much better and more accurate indication of the true risk level.
+I used a scoring method that calculates the risk level according to the potential threats existing within each specific email. The fact that the score is dynamic and calculated based only on relevant threats—rather than using a generic scoring method—provides a much better and more accurate indication of the true risk level.
 
 #### Risk Assessment:
   The engine returns a structured response containing:
