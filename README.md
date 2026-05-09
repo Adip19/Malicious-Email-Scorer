@@ -57,7 +57,7 @@ This repository contains all the components needed to run the analysis, split be
   * Persistence: Remember that the URL changes every time you restart ngrok.
   
   ### 3. Frontend (Google Apps Script)
-  * The logic for the Gmail interface is contained in the Google Apps Script files:
+  The logic for the Gmail interface is contained in the Google Apps Script files:
   * Code.gs: This file handles the extraction of the email data (Subject, Sender, Body, Attachments) and communicates with the backend security engine.
   * appsscript.json: The manifest file that defines the permissions required for the Add-on to read email metadata and perform URL fetches.
 
