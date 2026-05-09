@@ -38,13 +38,13 @@ This repository contains all the components needed to run the analysis, split be
   ### 1. Backend (Python)
   Ensure you have Python 3.9+ installed.
   
-  #### Clone the repository
-    git clone [https://github.com/Adip19/Malicious-Email-Scorer.git](https://github.com/Adip19/Malicious-Email-Scorer.git)
-    cd backend
-  
+    # Clone the repository
+    git clone https://github.com/Adip19/Malicious-Email-Scorer.git
+    cd Malicious-Email-Scorer/backend
+    
     # Install dependencies
     pip install -r requirements.txt
-  
+    
     # Run the server
     uvicorn main:app --reload
   
