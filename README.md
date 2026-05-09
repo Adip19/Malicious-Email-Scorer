@@ -70,5 +70,7 @@ ________________________________________________________________________________
 * <ins>Authentication (SPF):</ins> SPF testing has limitations (when an email is sent to yourself (Self-sent), it might automatically be marked as reliable). I added logic to mark this as a potential risk, but a deeper analysis should be done.
 * <ins>UI/UX Enhancements:</ins> Improving the Add-on's visual design to be more intuitive and engaging.
 
+_____________________________________________________________________________________________________________________________
+#### Adi Panker
 
 
