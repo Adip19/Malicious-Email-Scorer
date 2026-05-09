@@ -23,6 +23,7 @@ ________________________________________________________________________________
 * <ins>Attachment Scanning:</ins> Detects dangerous file extensions (EXE, BAT, JS) and deceptive "Double Extensions" (e.g., invoice.pdf.exe) - usually used to trick the user.
 * <ins>OSINT Reputation Check:</ins> Uses Google Search results to scan for scam reports related to entities mentioned in the email signature.
 * <ins>Word Analysis:</ins> Scans for urgency/financial keywords and generic greetings ("Dear Customer") — which are characteristics of automated bulk phishing campaigns.
+* <ins>URL Integrity Check:</ins> Detects empty, broken, or suspicious link structures (such as "#" or empty href attributes) that are often used in deceptive email layouts to hide malicious redirects.
 _____________________________________________________________________________________________________________________________
 
 ### Security & Secrets:
